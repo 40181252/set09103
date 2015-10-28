@@ -1,0 +1,71 @@
+a.
+This web-app introcudes various native trees and their species.
+
+b.
+I listed four main tree types and I collected resources to list their species.
+Each main tree type has a title, short description, species of that
+particular family tree and a link that brings users back to the
+home page.
+Upon clicking on their species will display its' name, a short
+description, URL that expands the content and it also shows extra
+information about the tree species, an image of the tree and a link
+that will navigate users back to the home page.
+The image of the tree route is provided with link as well to direct users
+back to the home page.
+Admin Area has a link below and that link  will take users to a deadend, as
+they don't have the privileges to access to the admin page.
+Upon entering a wrong URL on the web address will result an odd yet
+funny 404 error message. This is also a deadend.
+The idea is simple, if you managed to change the URL, then you will
+certainly manage to navigate yourself back to the home page.
+(Average users would not change the URL address.)
+
+CSS is applied on all pages and routes.
+Design and URL structure are consistent and relevant.
+
+c.
+Features I would add:
+- Option 1. the front page would be a form page, where users type their names and
+when they press  submit the website will welcome them.
+(Example: Welcome Jones, have a look on our great website and it will show the list of trees)
+- Option 2. users can upload their images and view them on a separate webpage.
+
+d.
+It could be better with the functions I have mentioned on C. section, but it is
+still provided with many different features and it has consistent design, URL
+hierarchy design and it also has relevant content.
+
+e.
+I have learned directing routes, customizing error pages, listing dictionaries,
+rendering HTML templates, adding extra content to the same route, download
+files to python folders by using the command "curl", displaying
+pictures, applying style with CSS and uploading and viewing that image.
+Problems I have faced with:
+- Elements of the dictionaries didn't take users to different pages. They
+  could only take users to one specified page.
+  So I made links separately and used dictionaries only to list the species of
+  the trees.
+- Applying CSS was a bit difficult as my thinking was complicated, so I had a
+  look on the next chapter on module and used the idea of how to apply
+  Bootstrap css.
+- I had to discard the idea of uploading and viewing images, because the
+  image name had to be specified within the code, and it made the feature useless.
+  Even my research on the Internet didn't give me any valuable answers.
+
+f.
+Resources:
+  I did not use any additional resources during the implementation of this
+  application. I used only the materials from practicals and my knowledge from
+  previous modules.
+
+References:
+  Content:
+  https://en.wikipedia.org/wiki/List_of_trees_of_Great_Britain_and_Ireland -- content
+
+  Images:
+  http://www.english-country-garden.com/a/i/trees/apple-5.jpg -- crab apple
+  http://www.altiusdirectory.com/Shopping/tree-images/black-alder.jpg -- alder
+  http://ecx.images-amazon.com/images/I/41J4YHKCZTL.jpg -- common ash
+  http://www.waterlowpark.org.uk/media/flora%20and%20fauna/birch1.jpg -- silver birch
+  http://gcs.org.ua/habitats/vydy-img/Betula-pubescens.jpg -- downy birch
+
