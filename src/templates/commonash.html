@@ -1,0 +1,19 @@
+<html>
+<head>
+  <link href="{{ url_for('static', filename='css/main.css') }} "
+  rel="stylesheet">
+  <title>Common ash</title>
+</head>
+<body>
+  <h1>Common ash or European ash</h1>
+  <p><i>Fraxinus excelsior</i> - known as the ash, or European ash<br />
+  or common ash to distinguish it from other types of ash - is a species <br />
+  of <i>Fraxinus</i> native to most of Europe from Portugal to Russia,<br />
+  with the exception of northern Scandinavia and southern Iberia.
+  </p>
+  <a href="/ashes/commonash/commonash_extra/">Extra content</a>
+  {% block content %} {% endblock %}
+  <p><a href="/ashes/commonash/commonash_image/">Example image</a></p>
+  &nbsp;
+  <p><a href="/">Back to the front page.</a></p>
+</body>

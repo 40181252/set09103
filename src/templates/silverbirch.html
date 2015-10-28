@@ -1,0 +1,20 @@
+<html>
+<head>
+  <link href="{{ url_for('static', filename='css/main.css') }}"
+  rel="stylesheet">
+  <title>Silver birch</title>
+</head>
+<body>
+  <h1>Silver birch</h1>
+  <p><i>Betula pendula</i>, commonly known as silver birch or <br />
+  warty birch, is a species of tree in the family Betulaceae, <br />
+  native to Europe and parts of Asia, though in southern Europe<br />
+  it is only found at higher altitudes.
+  </p>
+  <a href="/birches/silverbirch/silverbirch_extra/">Extra content</a>
+  {% block content %} {% endblock %}
+  <p><a href="/birches/silverbirch/silverbirch_image/">Example image</a></p>
+  &nbsp
+  <p><a href="/">Back to the front page.</a></p>
+</body>
+</html>

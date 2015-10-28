@@ -1,0 +1,25 @@
+<html>
+<head> 
+  <link href="{{ url_for('static', filename='css/main.css') }}"
+  rel="stylesheet">
+  <title>Birch</title>
+</head>
+<body>
+  <h1>Birch</h1>
+  <p>Birch is a thinleaved deciduous hardwood tree of the genus<br />
+  <i>Betula</i>, in the family Betulaceae, which also includes alders,<br />
+  hazels, and hornbeams, and is closely related to the beech/oak family,<br />
+  Fagaceae.
+  </p>
+  <h3>Species of this family tree:</h3>
+  <ul>
+    {% for name in names %}
+      <li>{{ name }}</li>
+    {% endfor %}
+  </ul>
+  <p><a href="/">Back to the front page.</a></p>
+</body>
+
+
+
+</html>

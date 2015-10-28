@@ -1,0 +1,23 @@
+<html>
+<head>
+  <link href="{{ url_for('static', filename='css/main.css') }}"
+  rel="stylesheet">
+ <title>Apple</title>
+</head>
+<body>
+  <h1>Apple</h1>
+  <p>The apple tree <i>(Malus domestice)</i> is a deciduous tree <br />
+  the rose family best known for its sweet, pomaceous fruit, the apple.<br />
+  It is cultivated wordwide as a fruit tree, and is the most widely grown<br />
+  species in the genus <i>Malus</i>.
+  </p>
+  <h3>Species of this family tree:</h3>
+  <ul>
+    {% for name in names %}
+      <li> {{ name }} </li>
+    {% endfor %}
+  </ul>
+  <p><a href="/">Back to the front page.</a></p>
+</body>
+
+</html>

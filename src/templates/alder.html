@@ -1,0 +1,23 @@
+<html>
+<head>
+  <link href="{{ url_for('static', filename='css/main.css') }} "
+  rel="stylesheet" >
+  <title>Alder</title>
+</head>
+<body>
+  <h1>Alder</h1>
+  <p><i>Alnus glutinosa</i>, the common alder, black alder,<br />
+  European alder or just alder, is a species of tree in the family<br />
+  Betulaceae, native to most of Europe, southwest Asia<br />
+  and northern Africa. It thrives in wet locations where its<br />
+  association with the bacterium <i>Frankia alni</i> enables it<br />
+  to grow in poor quality soils. It is a medium size, short-lived<br />
+  tree growing to a height of up to 30 metres (100 ft).
+  </p>
+  <a href="/alders/alder/alder_extra/">Extra info</a>
+  {% block content %} {% endblock %} 
+  <p><a href="/alders/alder/alder_image/">Example image</a></p>
+  &nbsp;
+  <p><a href="/">Back to the front page.</a></p>
+</body>
+</html>

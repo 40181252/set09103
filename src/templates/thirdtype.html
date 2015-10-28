@@ -1,0 +1,26 @@
+<html>
+<head>
+  <link href="{{ url_for('static', filename='css/main.css') }}"
+  rel="stylesheet">
+  <title>Ashes</title>
+</head>
+<body>
+  <h1>Ashes</h1>
+  <p><i>Fraxinus</i> is a genus of flowering plants in the olive and<br />
+  lilac family, Oleaceae. It contains 45-65 species of usually medium<br />
+  to large trees, mostly deciduous though a few subtropical species are<br />
+  evergreen. The genus is widespread across much of Europe, Asia and<br />
+  North America.
+  </p>
+  <h3>Species of this family tree:</h3>
+  <ul>
+    {% for name in names %}
+      <li>{{ name }}</li>
+    {% endfor %}
+  </ul>
+  <p><a href="/">Back to the front page.</a></p>
+</body>
+
+
+
+</html>

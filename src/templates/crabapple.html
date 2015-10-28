@@ -1,0 +1,19 @@
+<html>
+<head>
+  <link href="{{ url_for('static', filename='css/main.css') }}"
+  rel="stylesheet">
+  <title>Crab apple</title>
+</head>
+<body>
+  <h1>Crab Apple</h1>
+  <p><i>Malus sylvestris</i>, the European crab apple, is a species of<br />
+  the genus Malus, native to Europe. Its scientific name means<br />
+  "forest apple", and the truly wild tree has thorns.
+  </p>
+  <a href="/apples/crabapple/crabapple_extra/">Extra content</a>
+  {% block content %} {% endblock %}
+  <p><a href="/apples/crabapple/crabapple_image/">Example image</a></p>
+  &nbsp;
+  <p><a href="/">Back to the front page.</a></p>
+</body>
+</html>
