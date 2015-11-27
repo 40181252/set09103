@@ -1,0 +1,66 @@
+<html>
+<head>
+  <title>Catalogue of Motorbikes</title>
+  <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" />
+  <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation"</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button> -->
+      <a class="navbar-brand" href="#">Life on Two Wheels</a>
+    </div>
+    <!-- <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div> -->
+  </div>
+  </nav>
+
+  <div class="container">
+      <div class="jumbotron text-center">
+        <h1>Welcome on our app!</h1>
+        <p>Learn everything what you need to know about motorbikes...</p>
+        <h2>To become a real roadkiller!</h2>
+      </div> 
+  </div>
+  <div class="container">
+    <div class="login-section col-lg-4 col-lg-offset-1 text-center">
+      <p>Please use the Sign in button to login and to see the content of the
+      website.
+      </p>
+      <a href="/login/" class="btn btn-primary">Sign in</a>
+    </div>
+
+    <div class="register-section col-lg-4 col-lg-offset-2 text-center">
+      <p>Don't have an account? Don't worry! Register by clicking on the Sign
+      up button and become a bro.
+      </p>
+      <a href="/registration/" class="btn btn-info">Sign up</a>
+    </div>
+  </div>
+      
+  <nav class="navbar navbar-default navbar-static-bottom">
+    <div class="container text-center footy">
+      &copy; Copyright, Life on Two Wheels<br />
+      All Rights reserved, 2015
+    </div>
+  </nav>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+
+</body>
+</html>

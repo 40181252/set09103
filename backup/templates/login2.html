@@ -1,0 +1,44 @@
+<html>
+<head>
+  <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" />
+  <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet" />
+
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+    
+      <a class="navbar-brand" href="#">Life on Two Wheels</a>
+    </div>
+  </div>
+  </nav>
+
+  <div class="container">
+    <div class="jumbotron text-center">
+      <h1>Welcome visitor</h1>
+      <form name="login_form" action="" method="post">
+        Username: <input type="email" placeholder="Email" name="email"><br />
+        Password: <input style="margin-top: 20px;" type="password" placeholder="Password" name="password"><br />
+        <button style="margin-top: 20px;" type="submit" class="btn" name="button" value="login">Sign in</button>
+      </form>
+
+      <p>Don't you have an account?
+      <a href="/registration/">Register here</a>
+      </p>
+    </div>
+  </div>
+  
+  <nav class="navbar navbar-default navbar-static-bottom">
+    <div class="container text-center footy">
+      &copy; Copyright, Life on Two Wheels<br />
+      All Rights reserved, 2015
+    </div>
+  </nav>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+
+</body>
+</html>
