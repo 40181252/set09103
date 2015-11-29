@@ -1,0 +1,41 @@
+#navbar a:visited {
+  background-color: #080808;
+}
+#navbar a:hover {
+  color: white;
+}
+.motortype-heading {
+  margin-top: 150px;
+  width: 200px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.motortype-heading h2 {
+  line-height: 50px;
+  background-color: #222;
+  color: white;
+}
+.motor-image {
+  padding: 0;
+  margin-bottom: 20px;
+}
+.motor-image img {
+  border: 1px solid #222;
+}
+.paragraph-text {
+  background-color: #e1e1e1;
+  padding: 20px;
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+.quotes {
+  opacity: 0.7;
+}
+
+.footy {
+  font-weight: bold;
+}
+.btn {
+  font-size: 1.2em;
+}
+
