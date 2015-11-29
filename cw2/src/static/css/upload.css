@@ -1,0 +1,17 @@
+#navbar a:hover {
+  color: white;
+  background-color: #080808;
+}
+.footy {
+  font-weight: bold;
+}
+.btn {
+  font-size: 1.2em;
+}
+.fileupload {
+  margin-top: 60px;
+}
+.uploadcomplete {
+  font-style: italic;
+  font-size: 1.5em;
+}
