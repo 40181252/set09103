@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>Catalogue of Motorbikes</title>
+  <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" />
+  <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Life on Two Wheels</a>
+    </div>
+  </div>
+  </nav>
+
+  <div class="container">
+      <div class="jumbotron text-center">
+        <h1>Welcome on our app!</h1>
+        <p>Learn everything what you need to know about motorbikes...</p>
+        <h2>In order to become a real racer!</h2>
+        <a href="/login/" class="btn btn-primary">Sign in</a>
+      </div> 
+  </div>
+      
+  <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container text-center footy">
+      &copy; Copyright, Life on Two Wheels<br />
+      All Rights reserved, 2015
+    </div>
+  </nav>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+
+</body>
+</html>
