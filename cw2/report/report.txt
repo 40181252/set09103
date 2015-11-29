@@ -1,0 +1,67 @@
+
+########################### Life on Two Wheels ##############################
+################################# report ###################################
+-----------------------------------------------------------------------------
+
+a.
+This app is about various types of motorbikes. It allows user to use specific
+login credentials (username: 40181252, password: pw) to browse between
+different pages, and upload an image. Users are unable to view the content
+without using these login details.
+
+b.
+First page allows user to either login or register on the web-app. If user
+decides to go on the login page then the user needs to use specific login
+details (mentioned in section A). Upon a successful login a flash message shows
+up that tells user the login was successful. On the top of page a menu will
+appear which gives the option to navigate between the pages. The motors
+dropdown menu displays three different types of motors (motocross, sport bike
+and cruiser)
+These pages have a relevant title, image and description of the vehicle. There
+is also a quote from a famous person who has experience with the particular
+motorbike.
+Upload page allows user to upload an image which will be stored in a folder of
+the application. The logout page ends the session and the user will be
+navigated back to the login page.
+Upon a successful logout a flash message will show up that tells user the
+logout was successful.
+If the user accidently enters an invalid URL address a 404 error page will
+appear (it allows user to go back to the home page)
+
+Twitter Bootstrap was used and it was modified appropriately.
+Design and URL structure are consistent and relevant.
+
+c.
+Features I would add:
+  - Option 1. Validation that validates the input boxes
+    (login, upload and registration)
+  - Option 2. Registration, users could register themselves
+  - Option 3. Admin section that removes/adds content, updates user details and
+    removes users if necessary
+
+d. 
+Options from section C should have been implemented during the development of
+the application.
+
+e.
+Time was a real challenge. I spent more time on this coursework than on the
+previous one. Still it was insufficient.
+I also tried to use other resources from websites, but I did not find anything
+that I could use.
+
+f. 
+Resources:
+Apart from the upload section I used existing knowledge and workbook notes from
+module.
+Upload section:
+code.runnable.com/UiPcaBXaxGNYAAAL/how-to-upload-a-filde-to-the-server-in-flask-for-python
+
+References:
+  Content:
+  https://en.wikipedia.org/wiki/Types_of_motorcycles
+
+  Images:
+  http://i.ytimg.com/vi/VUjF1fRw9sA/maxresdefault.jpg --> motocross
+  http://www.allprotect.cz/foto/sports/road1.jpg --> sport bike
+  http://images.thecarconnection.com/med/victory-gunner-motorcycle_100499442_m.jpg --> cruiser
+
